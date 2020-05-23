@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name V2-DSN-VC288-rescue)(type Legacy)(uri "${KIPRJMOD}/dsn-vc288-v2-rescue.lib")(options "")(descr ""))
+  (lib (name ShuntResistor)(type Legacy)(uri "/home/dima/Projects/dsn-vc288-master/DSN-VC288 Library/ShuntResistor.lib")(options "")(descr ""))
+  (lib (name mcd-2831a)(type Legacy)(uri "/home/dima/Projects/dsn-vc288-master/DSN-VC288 Library/mcd-2831a.lib")(options "")(descr ""))
+  (lib (name me6203)(type Legacy)(uri "/home/dima/Projects/dsn-vc288-master/DSN-VC288 Library/me6203.lib")(options "")(descr ""))
+  (lib (name opamp)(type Legacy)(uri "/home/dima/Projects/dsn-vc288-master/DSN-VC288 Library/opamp.lib")(options "")(descr ""))
+  (lib (name shuntresistor)(type Legacy)(uri "/home/dima/Projects/dsn-vc288-master/DSN-VC288 Library/shuntresistor.lib")(options "")(descr ""))
+  (lib (name stm8s103f3)(type Legacy)(uri "/home/dima/Projects/dsn-vc288-master/DSN-VC288 Library/stm8s103f3.lib")(options "")(descr ""))
+)

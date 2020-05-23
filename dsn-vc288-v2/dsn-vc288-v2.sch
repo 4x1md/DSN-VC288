@@ -1,44 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:Jellybean Op Amp Dual
-LIBS:mcd-2831a
-LIBS:me6203
-LIBS:opamp
-LIBS:shuntresistor
-LIBS:stm8s103f3
-LIBS:DSN-VC288-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr User 10827 8858
 encoding utf-8
@@ -53,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R R2
+L V2-DSN-VC288-rescue:R R2
 U 1 1 5AAE92D1
 P 1300 3350
 F 0 "R2" H 1450 3400 50  0000 C CNN
@@ -64,7 +25,7 @@ F 3 "" H 1300 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L V2-DSN-VC288-rescue:C C2
 U 1 1 5AAE9326
 P 1600 6250
 F 0 "C2" H 1350 6200 50  0000 L CNN
@@ -75,7 +36,7 @@ F 3 "" H 1600 6250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C1
+L V2-DSN-VC288-rescue:C C1
 U 1 1 5AAEC57C
 P 3350 5000
 F 0 "C1" H 3375 5100 50  0000 L CNN
@@ -86,7 +47,7 @@ F 3 "" H 3350 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L V2-DSN-VC288-rescue:C C3
 U 1 1 5AAEC6E0
 P 900 4550
 F 0 "C3" H 750 4450 50  0000 L CNN
@@ -97,7 +58,7 @@ F 3 "" H 900 4550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C4
+L V2-DSN-VC288-rescue:C C4
 U 1 1 5AAEC71A
 P 4850 7100
 F 0 "C4" H 4875 7200 50  0000 L CNN
@@ -108,7 +69,7 @@ F 3 "" H 4850 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L V2-DSN-VC288-rescue:R R4
 U 1 1 5AAEC8B5
 P 5200 7350
 F 0 "R4" H 5300 7400 50  0000 C CNN
@@ -119,7 +80,7 @@ F 3 "" H 5200 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L V2-DSN-VC288-rescue:R R1
 U 1 1 5AAEC9A0
 P 1300 4550
 F 0 "R1" H 1150 4500 50  0000 C CNN
@@ -130,7 +91,7 @@ F 3 "" H 1300 4550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R5
+L V2-DSN-VC288-rescue:R R5
 U 1 1 5AAEC9EF
 P 4250 5950
 F 0 "R5" H 4100 5900 50  0000 C CNN
@@ -141,7 +102,7 @@ F 3 "" H 4250 5950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R3
+L V2-DSN-VC288-rescue:R R3
 U 1 1 5AAECAA9
 P 5900 6950
 F 0 "R3" V 5800 6800 50  0000 C CNN
@@ -152,7 +113,7 @@ F 3 "" H 5900 6950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R6
+L V2-DSN-VC288-rescue:R R6
 U 1 1 5AAECB4E
 P 4250 6550
 F 0 "R6" H 4100 6600 50  0000 C CNN
@@ -163,7 +124,7 @@ F 3 "" H 4250 6550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L POT_TRIM RV2
+L V2-DSN-VC288-rescue:POT_TRIM RV2
 U 1 1 5AAECC15
 P 6350 6600
 F 0 "RV2" H 6200 6550 50  0000 C CNN
@@ -174,7 +135,7 @@ F 3 "" H 6350 6600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L POT_TRIM RV1
+L V2-DSN-VC288-rescue:POT_TRIM RV1
 U 1 1 5AAECCAD
 P 1300 3850
 F 0 "RV1" H 1650 3950 50  0000 C CNN
@@ -185,7 +146,7 @@ F 3 "" H 1300 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_ALT D1
+L V2-DSN-VC288-rescue:D_ALT D1
 U 1 1 5AAECD0D
 P 1950 5800
 F 0 "D1" H 1800 5900 50  0000 C CNN
@@ -196,7 +157,7 @@ F 3 "" H 1950 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Pack04 RN1
+L V2-DSN-VC288-rescue:R_Pack04 RN1
 U 1 1 5AAECE2C
 P 7000 2100
 F 0 "RN1" V 6700 2100 50  0000 C CNN
@@ -207,7 +168,7 @@ F 3 "" H 7000 2100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Pack04 RN2
+L V2-DSN-VC288-rescue:R_Pack04 RN2
 U 1 1 5AAED0D4
 P 7000 2700
 F 0 "RN2" V 6700 2700 50  0000 C CNN
@@ -218,7 +179,7 @@ F 3 "" H 7000 2700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Conn_01x08 J1
+L V2-DSN-VC288-rescue:CONN_01X08 J1
 U 1 1 5AAED220
 P 1650 1750
 F 0 "J1" H 1650 2200 50  0000 C CNN
@@ -229,7 +190,7 @@ F 3 "" H 1650 1750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J4
+L V2-DSN-VC288-rescue:CONN_01X02 J4
 U 1 1 5AAED353
 P 7100 5900
 F 0 "J4" H 7100 6000 50  0000 C CNN
@@ -240,7 +201,7 @@ F 3 "" H 7100 5900 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Conn_01x03 J3
+L V2-DSN-VC288-rescue:CONN_01X03 J3
 U 1 1 5AAED403
 P 1150 7600
 F 0 "J3" H 1200 7350 50  0000 C CNN
@@ -251,7 +212,7 @@ F 3 "" H 1150 7600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J2
+L V2-DSN-VC288-rescue:CONN_01X02 J2
 U 1 1 5AB17550
 P 3850 1850
 F 0 "J2" H 3900 2000 50  0000 C CNN
@@ -266,7 +227,7 @@ YouTube.com/UpcycleElectronics
 Text Notes 600  900  0    197  ~ 39
 DSN-VC288 Volt/Current Meter
 $Comp
-L STM8S103F3 IC2
+L stm8s103f3:STM8S103F3 IC2
 U 1 1 5AB189DF
 P 4100 4400
 F 0 "IC2" H 3800 5050 50  0000 C CNN
@@ -277,7 +238,7 @@ F 3 "" H 4300 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCD-2831A DS1
+L mcd-2831a:MCD-2831A DS1
 U 1 1 5AB19176
 P 8800 2250
 F 0 "DS1" H 8000 2600 50  0000 C CNN
@@ -288,7 +249,7 @@ F 3 "" H 8800 2250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MCD-2831A DS2
+L mcd-2831a:MCD-2831A DS2
 U 1 1 5AB193CB
 P 8800 4500
 F 0 "DS2" H 8000 4850 50  0000 C CNN
@@ -299,7 +260,7 @@ F 3 "" H 8800 4500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ShuntResistor SH-R1
+L ShuntResistor:ShuntResistor SH-R1
 U 1 1 5AB1980F
 P 4350 7300
 F 0 "SH-R1" V 4350 7550 50  0000 C CNN
@@ -310,7 +271,7 @@ F 3 "" H 4400 7250 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L ME6203 IC1
+L me6203:ME6203 IC1
 U 1 1 5AB1A3C3
 P 1150 5950
 F 0 "IC1" H 1150 6150 50  0000 C CNN
@@ -379,7 +340,7 @@ PD6-P3
 Text GLabel 4050 5650 0    60   Input ~ 0
 VCC_3.3
 $Comp
-L GNDREF #PWR?
+L power:GNDREF #PWR?
 U 1 1 5AB3FBAC
 P 1900 7650
 F 0 "#PWR?" H 1900 7400 50  0001 C CNN
@@ -390,7 +351,7 @@ F 3 "" H 1900 7650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR?
+L power:GNDREF #PWR?
 U 1 1 5AB3FEED
 P 4250 7900
 F 0 "#PWR?" H 4250 7650 50  0001 C CNN
@@ -409,7 +370,7 @@ CircuitGround
 Text GLabel 4150 7150 0    60   Input ~ 0
 LoadReturn
 $Comp
-L LM358 IC3
+L V2-DSN-VC288-rescue:LM358 IC3
 U 2 1 5AB44F77
 P 5650 6350
 F 0 "IC3" H 5650 6550 50  0000 L CNN
@@ -430,13 +391,13 @@ Vbat
 Wire Wire Line
 	3400 4150 3700 4150
 Wire Wire Line
-	4250 6100 4250 6400
+	4250 6100 4250 6250
 Wire Wire Line
-	4250 6250 5350 6250
+	4250 6250 4850 6250
 Wire Wire Line
 	3150 4550 3700 4550
 Wire Wire Line
-	4050 5650 5550 5650
+	4050 5650 4250 5650
 Wire Wire Line
 	4250 5650 4250 5800
 Connection ~ 4250 6250
@@ -469,7 +430,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 3550 9300 3650
 Wire Wire Line
-	8150 1400 8150 3650
+	8150 1400 8150 3250
 Wire Wire Line
 	8150 3650 8300 3650
 Wire Wire Line
@@ -477,7 +438,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 2500 8000 2500
 Wire Wire Line
-	8000 1350 8000 3200
+	8000 1350 8000 2500
 Wire Wire Line
 	8000 1350 8900 1350
 Wire Wire Line
@@ -490,7 +451,7 @@ Connection ~ 8000 2500
 Wire Wire Line
 	7200 1900 7900 1900
 Wire Wire Line
-	7900 1250 7900 3100
+	7900 1250 7900 1900
 Wire Wire Line
 	7900 1250 9100 1250
 Wire Wire Line
@@ -505,7 +466,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 4450 3650 5150
 Wire Wire Line
-	7200 2700 8500 2700
+	7200 2700 7800 2700
 Wire Wire Line
 	7800 2700 7800 4900
 Wire Wire Line
@@ -516,7 +477,7 @@ Wire Wire Line
 	8500 4900 8500 4800
 Connection ~ 7800 2700
 Wire Wire Line
-	7200 2600 8700 2600
+	7200 2600 7700 2600
 Wire Wire Line
 	7700 2600 7700 5000
 Wire Wire Line
@@ -536,7 +497,7 @@ Connection ~ 8150 3250
 Wire Wire Line
 	7200 2200 7600 2200
 Wire Wire Line
-	7600 2200 7600 5100
+	7600 2200 7600 2800
 Wire Wire Line
 	7600 2800 8900 2800
 Wire Wire Line
@@ -549,7 +510,7 @@ Connection ~ 7600 2800
 Wire Wire Line
 	7200 2100 7500 2100
 Wire Wire Line
-	7500 2100 7500 5200
+	7500 2100 7500 2900
 Wire Wire Line
 	7500 2900 9100 2900
 Wire Wire Line
@@ -562,7 +523,7 @@ Connection ~ 7500 2900
 Wire Wire Line
 	7200 2000 7400 2000
 Wire Wire Line
-	7400 2000 7400 5300
+	7400 2000 7400 3000
 Wire Wire Line
 	7400 3000 9300 3000
 Wire Wire Line
@@ -637,7 +598,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 3450 3850 3450
 Wire Wire Line
-	4250 7400 4250 7900
+	4250 7400 4250 7850
 Wire Wire Line
 	4250 7150 4250 6700
 Connection ~ 4250 7150
@@ -658,11 +619,11 @@ Wire Wire Line
 Wire Wire Line
 	5550 5650 5550 6050
 Wire Wire Line
-	5200 6450 5200 7200
+	5200 6450 5200 6950
 Wire Wire Line
 	5200 6450 5350 6450
 Wire Wire Line
-	5950 6350 6600 6350
+	5950 6350 6100 6350
 Wire Wire Line
 	6100 6350 6100 6600
 Connection ~ 6100 6350
@@ -685,7 +646,7 @@ Connection ~ 4250 7400
 Wire Wire Line
 	4850 7250 4850 7850
 Wire Wire Line
-	4250 7850 5550 7850
+	4250 7850 4850 7850
 Connection ~ 4250 7850
 Connection ~ 4850 7850
 Connection ~ 5200 7850
@@ -719,7 +680,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 3000 1300 3200
 Wire Wire Line
-	1300 3500 1300 3700
+	1300 3500 1300 3600
 Wire Wire Line
 	1450 3850 1550 3850
 Wire Wire Line
@@ -728,14 +689,14 @@ Wire Wire Line
 	1550 3600 1300 3600
 Connection ~ 1300 3600
 Wire Wire Line
-	1300 4000 1300 4400
+	1300 4000 1300 4200
 Wire Wire Line
-	900  4200 1450 4200
+	900  4200 1300 4200
 Connection ~ 1300 4200
 Wire Wire Line
 	900  4200 900  4400
 $Comp
-L GNDREF #PWR?
+L power:GNDREF #PWR?
 U 1 1 5AB50C61
 P 1100 5050
 F 0 "#PWR?" H 1100 4800 50  0001 C CNN
@@ -748,7 +709,7 @@ $EndComp
 Wire Wire Line
 	900  4700 900  5050
 Wire Wire Line
-	900  5050 1300 5050
+	900  5050 1100 5050
 Wire Wire Line
 	1300 5050 1300 4700
 Connection ~ 1100 5050
@@ -761,7 +722,7 @@ Wire Wire Line
 Text GLabel 3000 4750 0    60   Input ~ 0
 VCC_3.3
 $Comp
-L GNDREF #PWR?
+L power:GNDREF #PWR?
 U 1 1 5AB52D26
 P 3350 5300
 F 0 "#PWR?" H 3350 5050 50  0001 C CNN
@@ -772,9 +733,9 @@ F 3 "" H 3350 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 5150 3350 5300
+	3350 5150 3350 5250
 $Comp
-L GNDREF #PWR?
+L power:GNDREF #PWR?
 U 1 1 5AB53251
 P 2450 2000
 F 0 "#PWR?" H 2450 1750 50  0001 C CNN
@@ -813,7 +774,7 @@ PD6-P3
 Wire Wire Line
 	4150 1850 4050 1850
 $Comp
-L GNDREF #PWR?
+L power:GNDREF #PWR?
 U 1 1 5AB54112
 P 4150 2000
 F 0 "#PWR?" H 4150 1750 50  0001 C CNN
@@ -853,7 +814,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 7650 1900 7600
 $Comp
-L GNDREF #PWR?
+L power:GNDREF #PWR?
 U 1 1 5AB563DB
 P 1450 6600
 F 0 "#PWR?" H 1450 6350 50  0001 C CNN
@@ -868,7 +829,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 5950 1400 5950
 Wire Wire Line
-	1400 6050 1750 6050
+	1400 6050 1600 6050
 Wire Wire Line
 	1700 5950 1700 5800
 Wire Wire Line
@@ -879,7 +840,7 @@ Connection ~ 1600 6050
 Wire Wire Line
 	1400 5850 1450 5850
 Wire Wire Line
-	1450 5850 1450 6600
+	1450 5850 1450 6450
 Wire Wire Line
 	1600 6450 1450 6450
 Connection ~ 1450 6450
@@ -950,11 +911,7 @@ Wire Notes Line
 Wire Notes Line
 	7650 5500 2550 5500
 Wire Notes Line
-	5850 5500 5850 6000
-Wire Notes Line
 	5850 6100 7650 6100
-Wire Notes Line
-	5850 6100 5850 5950
 Wire Notes Line
 	6100 5450 10100 5450
 Wire Notes Line
@@ -982,7 +939,7 @@ Dual 7 Segment Display
 Text Notes 5950 5650 0    79   ~ 0
 Ammeter Input
 $Comp
-L LM358 IC3
+L V2-DSN-VC288-rescue:LM358 IC3
 U 1 1 5AB6191C
 P 3000 7650
 F 0 "IC3" H 3000 7850 50  0000 L CNN
@@ -1003,7 +960,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 7750 2700 7750
 $Comp
-L GNDREF #PWR?
+L power:GNDREF #PWR?
 U 1 1 5AB61D96
 P 2900 8000
 F 0 "#PWR?" H 2900 7750 50  0001 C CNN
@@ -1034,4 +991,54 @@ Wire Notes Line
 Wire Wire Line
 	2900 8000 2900 7950
 Connection ~ 2900 7950
+Wire Wire Line
+	4250 6250 4250 6400
+Wire Wire Line
+	8000 2500 8000 3200
+Wire Wire Line
+	7900 1900 7900 3100
+Wire Wire Line
+	7800 2700 8500 2700
+Wire Wire Line
+	7700 2600 8700 2600
+Wire Wire Line
+	8150 3250 8150 3650
+Wire Wire Line
+	7600 2800 7600 5100
+Wire Wire Line
+	7500 2900 7500 5200
+Wire Wire Line
+	7400 3000 7400 5300
+Wire Wire Line
+	6100 6350 6350 6350
+Wire Wire Line
+	6350 6350 6600 6350
+Wire Wire Line
+	5200 6950 5200 7200
+Wire Wire Line
+	4850 6250 5350 6250
+Wire Wire Line
+	4250 7850 4250 7900
+Wire Wire Line
+	4850 7850 5200 7850
+Wire Wire Line
+	5200 7850 5550 7850
+Wire Wire Line
+	4250 5650 5550 5650
+Wire Wire Line
+	1300 3600 1300 3700
+Wire Wire Line
+	1300 4200 1300 4400
+Wire Wire Line
+	1300 4200 1450 4200
+Wire Wire Line
+	1100 5050 1300 5050
+Wire Wire Line
+	3350 5250 3350 5300
+Wire Wire Line
+	1600 6050 1750 6050
+Wire Wire Line
+	1450 6450 1450 6600
+Wire Notes Line
+	5850 5500 5850 6100
 $EndSCHEMATC
